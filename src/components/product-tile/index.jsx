@@ -36,7 +36,6 @@ const ProductTile = ({ product }) => {
                         >
                             {
                                 cart.some(item => item.id === product.id) ? "Remove from cart" : "Add to cart"
-                                // cartItem?.(item => item.id === product.id) ? "Remove from cart" : "Add to cart"
                             }
                         </button>
                     </div>
