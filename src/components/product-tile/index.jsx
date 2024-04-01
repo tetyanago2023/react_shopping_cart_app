@@ -13,7 +13,7 @@ const ProductTile = ({product}) => {
                     <div>
                         <h1 className="w-40 truncate mt-3 text-gray-700 font-bold text-lg">{product.title}</h1>
                     </div>
-                    <div className="flex items-center justify-between w-full mt-5">
+                    <div className="flex items-center justify-center w-full mt-5">
                         <button className="bg-red-950 text-white boder-2 rounded-lg font-bold p-4">Add to cart</button>
                     </div>
                 </div>
